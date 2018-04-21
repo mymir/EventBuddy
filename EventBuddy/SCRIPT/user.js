@@ -6,5 +6,6 @@ class User() {
       this.bio;          //description of the user by the user
       this.attending;    //array of events the user is attending
       this.planning;     //events the user wants to attend
+      this.email;        //the email of the user
    }
 }
