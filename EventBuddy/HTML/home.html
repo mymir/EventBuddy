@@ -13,21 +13,45 @@
     </div>
 
     <div id="nav">
-      <a id="navLink" href="">Home</a>
-      <a id="navLink" href="">About</a>
-      <a id="navLink" href="">Events</a>
-      <a id="navLink" href="">Map</a>
-      <a id="navLink" href="">Profile</a>
+      <a id="navLink" href="home.html">Home</a>
+      <a id="navLink" href="about.html">About</a>
+      <a id="navLink" href="list.html">Events</a>
+      <a id="navLink" href="map.html">Map</a>
+      <a id="navLink" href="profile.html">Profile</a>
     </div>
 
     <div id="main">
-
+      <div id="featured">
+        <h2>Featured Events</h2>
+        <div id="slides">
+          <p id="slideText"></p>
+          <!-- <img id="slideText" href="" alt=""></img>
+          <a id="next" onclick=""><a/>
+          <a id="previous" onclick=""><a/> -->
+        </div>
+      </div>
+      <div id="upcoming">
+        <h2>Upcoming Events</h2>
+        <!-- <><> -->
+      </div>
     </div>
 
     <div id="footer">
 
     </div>
 
+  <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAxMfjYH3z88BqfghQZWH14TgShX3ZLB_I",
+      authDomain: "eventbuddy-3a572.firebaseapp.com",
+      databaseURL: "https://eventbuddy-3a572.firebaseio.com",
+      projectId: "eventbuddy-3a572",
+      storageBucket: "",
+      messagingSenderId: "338810584948"
+    };
+    firebase.initializeApp(config);
+  </script>
   </body>
-
 </html>
