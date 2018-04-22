@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <title>Event Buddy</title>
   <link rel="stylesheet" type="text/css" href="../CSS/listStyle.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <script src="../SCRIPT/list.js"></script>
   </head>
 
   <body>
@@ -16,12 +18,39 @@
       <a id="navLink" href="home.html">Home</a>
       <a id="navLink" href="about.html">About</a>
       <a id="navLink" href="list.html">Events</a>
-      <a id="navLink" href="map.html">Map</a>
+      <!-- <a id="navLink" href="map.html">Map</a> -->
       <a id="navLink" href="profile.html">Profile</a>
     </div>
 
     <div id="main">
+      <div id="events">
+        <h2 id="head">Events At North Carolina State University</h2>
+        <input type="text" id="input" onkeyup="filter()" placeholder="Search for events..."
+        title="Type In A Filter">
+        <div id="eventContainer">
+          <div "topRow">
+            <h4 class="offical"><a id="event" href="#">International Festival</a></h4>
+            <h4 class="club"><a id="event" href="#">Woodworking Open House</a></h4>
+            <h4 class="uab"><a id="event" href="#">Princess Bride Showing</a></h4>
+            <h4 class="offical"><a id="event" href="#">Career Fair</a></h4>
+            <h4 class="club"><a id="event" href="#">Flute Club Back Sale</a></h4>
+            <!-- <h4 class="offical"><a id="event" href="#">Last Day Of Class</a></h4> -->
+          </div>
+          <div id="bottomRow">
+            <h4 class="offical"><a id="event" href="#">Pack Hacks</a></h4>
+            <h4 class="uab"><a id="event" href="#">Concert On The Lawn</a></h4>
+            <h4 class="club"><a id="event" href="#">Intramural Soccer</a></h4>
+            <h4 class="offical"><a id="event" href="#">Book Sale</a></h4>
+            <h4 class="uab"><a id="event" href="#">Trivia Night</a></h4>
+          </div>
+          <!-- <h3 id="eventSlide">Pack Hacks</h3> -->
+          <!-- <div class="eventSlide">Concert On The Lawn</div>
+          <div class="eventSlide">Intramural Soccer</div>
+          <div class="eventSlide">Book Sale</div>
+          <div class="eventSlide">Trivia Night</div> -->
 
+        </div>
+      </div>
     </div>
 
     <div id="footer">

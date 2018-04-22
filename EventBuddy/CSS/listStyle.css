@@ -35,3 +35,38 @@ html, body {
 #navLink:hover {
   background-color: #8c0000;
 }
+
+#head {
+  text-align: center;
+  margin: 40px;
+}
+
+#input {
+  position: sticky;
+  width: 15%;
+  padding: 15px 20px 15px 20px;
+  left: 50%;
+  transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  font-size: 15px;
+  margin: 20px 0 40px 0;
+}
+
+#event {
+  display: block;
+  float: left;
+  font-size: 17px;
+  margin: 10px 15px 10px 15px;
+  /* height: 150px; */
+  padding: 75px 0 75px 0;
+  width: 255px;
+  background-color: #CC0000;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* #event:hover {
+  font-size: 40px;
+  padding: 64px 0 64px 0;
+} */

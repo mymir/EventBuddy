@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Event Buddy</title>
   <link rel="stylesheet" type="text/css" href="../CSS/homeStyle.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
   <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
   <script>
@@ -36,23 +37,35 @@
       <a id="navLink" href="home.html">Home</a>
       <a id="navLink" href="about.html">About</a>
       <a id="navLink" href="list.html">Events</a>
-      <a id="navLink" href="map.html">Map</a>
+      <!-- <a id="navLink" href="map.html">Map</a> -->
       <a id="navLink" href="profile.html">Profile</a>
     </div>
 
     <div id="main">
       <div id="featured">
         <h2>Featured Events</h2>
-        <div id="slides">
-          <p id="slideText"></p>
+          <h3 id="eventSlide">Pack Hacks</h3>
+          <!-- <div class="eventSlide">Concert On The Lawn</div>
+          <div class="eventSlide">Intramural Soccer</div>
+          <div class="eventSlide">Book Sale</div>
+          <div class="eventSlide">Trivia Night</div> -->
+
+        <!-- <div id="slides">
+          <p id="slideText"></p> -->
           <!-- <img id="slideText" href="" alt=""></img>
           <a id="next" onclick=""><a/>
           <a id="previous" onclick=""><a/> -->
-        </div>
+        <!-- </div> -->
       </div>
       <div id="upcoming">
         <h2>Upcoming Events</h2>
-        <!-- <><> -->
+        <div id="eventContainer">
+          <h4 id="event">International Festival</h4>
+          <h4 id="event">Woodworking Open House</h4>
+          <h4 id="event">Princess Bride Showing</h4>
+          <h4 id="event">Career Fair</h4>
+          <h4 id="event">Flute Club Back Sale</h4>
+        </div>
       </div>
     </div>
 
@@ -60,18 +73,5 @@
 
     </div>
 
-  <!-- <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
-  <script>
-    // Initialize Firebase
-    var config = {
-      apiKey: "AIzaSyAxMfjYH3z88BqfghQZWH14TgShX3ZLB_I",
-      authDomain: "eventbuddy-3a572.firebaseapp.com",
-      databaseURL: "https://eventbuddy-3a572.firebaseio.com",
-      projectId: "eventbuddy-3a572",
-      storageBucket: "",
-      messagingSenderId: "338810584948"
-    };
-    firebase.initializeApp(config);
-  </script> -->
   </body>
 </html>

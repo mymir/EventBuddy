@@ -6,9 +6,7 @@ class Event() {
       this.picture;      //string of link to picture
       this.description;  //description
       this.label;        //The organizer/type of the activity
-      this.tags;         //array of tags
-      this.startTime;    //the start time of the event
-      this.endTime;      //the end time of the event
+      this.tag;          //array of tags
    }
 
    //fnName() {
