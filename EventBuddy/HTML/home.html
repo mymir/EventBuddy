@@ -3,7 +3,27 @@
   <head>
   <meta charset="UTF-8">
   <title>Event Buddy</title>
-  <link rel="stylesheet" type="text/css" href="css/homeStyle.css">
+  <link rel="stylesheet" type="text/css" href="../CSS/homeStyle.css">
+
+  <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    // TODO: Replace with your project's customized code snippet
+    var config = {
+      apiKey: "<API_KEY>",
+      authDomain: "<PROJECT_ID>.firebaseapp.com",
+      databaseURL: "https://<DATABASE_NAME>.firebaseio.com",
+      projectId: "<PROJECT_ID>",
+      storageBucket: "<BUCKET>.appspot.com",
+      messagingSenderId: "<SENDER_ID>",
+    };
+    firebase.initializeApp(config);
+  </script>
+
+  <!-- <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase-database.js"></script> -->
+
+
   </head>
 
   <body>
@@ -40,7 +60,7 @@
 
     </div>
 
-  <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+  <!-- <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
   <script>
     // Initialize Firebase
     var config = {
@@ -52,6 +72,6 @@
       messagingSenderId: "338810584948"
     };
     firebase.initializeApp(config);
-  </script>
+  </script> -->
   </body>
 </html>

@@ -1,0 +1,132 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+}
+
+#header {
+  text-align: center;
+  background: #CC0000;
+  font-size: 14px;
+  width: 100%;
+  overflow: hidden;
+  color: #fff;
+}
+
+#nav {
+  background-color: #CC0000;
+  width: 100%;
+  overflow: hidden;
+  border-top: solid 1px #8c0000;
+}
+
+#navLink {
+  display: block;
+  float: left;
+  padding: 20px;
+  text-decoration: none;
+  overflow: scroll;
+  color: #fff;
+}
+
+#navLink:hover {
+  background-color: #8c0000;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  /* background-color: #111; */
+  border-right: solid 1px #CCCCCC;
+  /* position: absolute; */
+  /* float: left; */
+  text-align: center;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+#profile {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#name, #profilePic, #info, #aboutMe {
+  padding: 0 25px;
+}
+
+#profilePic {
+  padding: 20px;
+}
+
+#pic {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid #CCCCCC;
+  padding: 5px;
+}
+
+#profilePic, #info, #aboutMe {
+  border-top: solid 1px #CCCCCC;
+}
+
+#bio {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+#bioPara {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+  /* text-align: justify; */
+}
+
+#profile {
+  width: 20%;
+  height: 100%;
+  background-color: #fff;
+  outline: solid 1px #CCCCCC;
+  /* position: absolute; */
+  float: left;
+}
+
+#events {
+  width: 80%;
+  height: 100%;
+  background-color: #fff;
+  /* position: absolute; */
+  float: left;
+}
+
+#going {
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+  outline: solid 1px #CCCCCC;
+  /* position: absolute; */
+  float: left;
+}
+
+#goTitle {
+  padding-bottom: 20px;
+  border-bottom: solid 1px #CCCCCC;
+}
+
+#interested {
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+  outline: solid 1px #CCCCCC;
+  /* position: absolute; */
+  float: left;
+}
+
+#pendTitle {
+  padding-bottom: 20px;
+  border-bottom: solid 1px #CCCCCC;
+}
